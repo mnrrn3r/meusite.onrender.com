@@ -1,0 +1,8 @@
+pkg install git -y
+git config --global user.name "seu-nome"
+git config --global user.email "seu-email"
+git init
+git add .
+git commit -m "Meu site Flask"
+git remote add origin https://github.com/seu-usuario/seu-repo.git
+git push -u origin master
